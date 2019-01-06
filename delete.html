@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<h2><center>Questioner</center></h2>
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#login">Login</a> 
+  <a href="#register">Register</a>
+</div>
+<style>
+body {
+  background-color: lightblue;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<div class="options">
+      <h1>User Settings</h1>
+      <ul>
+         <li><a href="#" class="password">Change Password</a></li>
+         <li><a href="#" class="email">Change Email</a></li>
+         <li><a href="#" class="meetup">Create New Meetup</a></li>
+         <li><a href="#" class="meetup">Meetup</a></li>
+         <li><a href="#" class="delete">Delete Account</a></li>
+      </ul>
+   </div>
+   <div class="panel password">
+      <form>
+         <div class="form-group">
+            <label for="old">Old Password:</label>
+            <input type="password" name="old" />
+         </div>
+         <div class="form-group">
+            <label for="new">New Password:</label>
+            <input type="password" name="new" />
+         </div>
+         <div class="form-group">
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" name="confirm" />
+         </div>
+      </form>
+   </div>
+   <div class="panel email">
+   </div>
+   <div class="panel picture">
+   </div>
+   <div class="panel subscription">
+   </div>
+   <div class="panel delete">
+      <div class="alert alert-danger">Are you sure?</div>
+   </div>
+<style>
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #b6bbc4;
+}
+
+.clearfix:after. .clearfix:before {
+   content: " ";
+   display: block;
+   clear: both;
+   width: 0;
+   height: 0;
+   visibility: hidden;
+   line-height: 0;
+   font-size: 0;
+}
+
+.settings {
+   position: relative;
+   width: 90%;
+   min-height: 200px;
+   margin: 50px auto;
+}
+
+.options {
+   background: #999;
+   min-height: 200px;
+   width: 50%;
+   border-radius: 10px;
+   padding: 5px;
+   position: absolute;
+   box-shadow: 0px 10px 20px #a1a6af;
+}
+
+.avatar {
+   position: absolute;
+   top: -15px;
+   left: -20px;
+   border-radius: 50%;
+   background: #ddd;
+   border: 5px solid #999;
+   width: 90px;
+   height: 90px;
+   padding: 10px;
+}
+.avatar img {
+   width: 60px;
+   height: 60px;
+}
+
+.options h1 {
+   margin: 0;
+   text-align: center;
+   font-size: 2.4em;
+   color: #fff;
+   text-shadow: 1px 1px 3px #444;
+}
+
+.options ul {
+   list-style-type: none;
+   text-align: center;
+}
+.options ul li {
+   width: 55%;
+   margin: 5px auto;
+}
+.options ul li a {
+   display: block;
+   padding: 10px;
+   background-color: #08be70;
+   background-image: linear-gradient(to top, #08be70, #2cd38e);
+   color: #fff;
+   border-radius: 30px;
+   box-shadow: 0 1px 1px #777;
+   text-shadow: 1px 1px 1px #777;
+   text-decoration: none;
+}
+.options ul li a.delete {
+   margin-top: 20px;
+   background-color: #900;
+   background-image: linear-gradient(to bottom, #900, #800);
+}
+.options ul li a:hover {
+   background: #2adf92;
+}
+.options ul li a.delete:hover {
+   background: #a00;
+}
+
+.panel {
+   background: #CCC;
+   padding: 10px 20px 10px;
+   width: 50%;
+   height: 300px;
+   position: absolute;
+   top: 10px;
+   z-index: -1;
+}
+</style>
+</head>
+</html>
